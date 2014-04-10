@@ -1,5 +1,5 @@
 .container {
-  width: 800px;
+  /*width: 800px;*/
   background-color: #F0F0F0;
 }
 
@@ -12,7 +12,6 @@
 
 .page-header {
   border-bottom: 1px solid #394D54;
-  /*border-bottom: 1px solid #253237;*/
 }
 
 body {
