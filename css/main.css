@@ -10,13 +10,14 @@
   margin-bottom: 0px;
 }
 
-h1 {
-  border-spacing: 2px;
-  border-color: gray;
+.page-header {
+  border-bottom: 1px solid #394D54;
+  /*border-bottom: 1px solid #253237;*/
 }
 
 body {
   background-color: #91C6C6;
+  font-family: 'Cabin', sans-serif;
 }
 
 @media (min-width: 991px) {
