@@ -1,0 +1,27 @@
+.container {
+  width: 800px;
+  background-color: #F0F0F0;
+}
+
+.jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #253237;
+  margin-bottom: 0px;
+}
+
+h1 {
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+body {
+  background-color: #91C6C6;
+}
+
+@media (min-width: 991px) {
+  iframe {
+    position: relative;
+    left: -30px;
+  }
+}
