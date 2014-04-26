@@ -74,3 +74,13 @@ footer .container .row {
     height: 50px;
     width: 50px;
 }
+
+.talk img {
+    margin-top: 25px;
+}
+
+.breadcrumb {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 15px;
+}
