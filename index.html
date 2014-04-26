@@ -58,16 +58,18 @@ title: Welcome
     <div class="col-md-12">
         <div class="page-header"><h1>Schedule</h1></div>
     </div>
+    {% for s in site.data.schedule %}
     <div class="row schedule-item">
       <div class="col-md-2 col-xs-2">
-          <p class="h3">10:10am</p>
+          <p class="h3">{{ s.start_date }}</p>
       </div>
       <div class="col-md-1 col-xs-2">
-          <img class="img-responsive img-circle center-block" src="http://greatbritishnodeconf.co.uk/images/speakers/erisds.jpg" alt="Daniel Pyrathon" />
+          <img class="img-responsive img-circle center-block" src="{{ s.name | get_photo }}" alt="Daniel Pyrathon" />
       </div>
       <div class="col-md-7 col-xs-6">
-          <h3>Secrets of a Node Team</h3>
+          <h3>{{ s.title }}</h3>
       </div>
     </div>
+    {% endfor %}
 </div>
 
