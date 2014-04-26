@@ -40,15 +40,15 @@ title: Welcome
       <div class="page-header"><h1>Who</h1></div>
     </div>
     <div class="col-md-12 col-xs-12">
-      {% assign slice_set = site.data.speakers | each_slice(3) %}
+      {% assign slice_set = site.data.ordered_talks | each_slice(3) %}
       {% for slice in slice_set %}
         <div class="row">
-        {% for speaker in slice %}
+        {% for talk in slice %}
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-              <img class="img-responsive" src="{{ speaker.image_url }}" alt="{{ speaker.name }}" />
+              <img class="img-responsive" src="{{ talk.image_url }}" alt="{{ talk.speaker_name}}" />
               <div class="caption text-center">
-                  <h3>{{ speaker.name }}</h3>
+                  <h3>{{ talk.speaker_name }}</h3>
               </div>
             </div>
           </div>
