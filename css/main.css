@@ -5817,6 +5817,15 @@ button.close {
   position: relative;
   top: 5px;
 }
+.main .page-header .image-who {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  background: url("/images/user.jpg");
+  width: 34px;
+  height: 40px;
+}
 .main .page-header .image-where {
   display: inline-block;
   margin-right: 25px;
@@ -5861,4 +5870,14 @@ button.close {
 }
 .main .when .row {
   font-size: 28px;
+}
+.main .who .speaker {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.main .who .speaker p {
+  margin: 0px;
 }
