@@ -1,13 +1,18 @@
 @import "bootstrap/bootstrap.less";
 
+@lightblue: #23b8eb;
+@grey: #79868b;;
+
 @body-bg: #253237;
 @container-desktop: ((1040px + @grid-gutter-width));
 
 @font-family-base: 'Cabin', sans-serif;
 
+@page-header-border-color: #cccccc;
+
 .header {
-    height: 180px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .padded {
@@ -15,13 +20,13 @@
 }
 
 .blue-paragraph {
-  color: #23b8eb;
+  color: @lightblue;
   font-size: 60px;
 }
 
 .grey-paragraph {
   font-size: 38px;
-  color: #79868b;
+  color: @grey;
 }
 
 .grey-paragraph-upper {
@@ -32,4 +37,32 @@
 .white-paragraph {
   color: white;
   font-size: 38px;
+}
+
+.main {
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: white;
+
+  .page-header {
+    border-width: 5px;
+
+    h2 {
+      margin-bottom: 0px;
+      display: inline-block;
+      font-size: 43px;
+      color: @lightblue;
+    }
+
+    .image-where {
+      background: url("/images/location.jpg");
+      display: inline-block;
+      width: 30px;
+      height: 40px;
+      margin-right: 25px;
+      position: relative;
+      top: 5px;
+    }
+  }
+
 }
