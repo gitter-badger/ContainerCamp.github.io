@@ -5820,3 +5820,17 @@ button.close {
   position: relative;
   top: 5px;
 }
+.main .where .map {
+  height: 320px;
+}
+.main .where .map-details {
+  margin-top: 80px;
+  padding-left: 80px;
+  vertical-align: middle;
+  display: inline-block;
+  float: none;
+  font-size: 20px;
+}
+.main .where .map-details .gray {
+  color: #79868b;
+}

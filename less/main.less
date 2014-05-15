@@ -1,7 +1,7 @@
 @import "bootstrap/bootstrap.less";
 
 @lightblue: #23b8eb;
-@grey: #79868b;;
+@grey: #79868b;
 
 @body-bg: #253237;
 @container-desktop: ((1040px + @grid-gutter-width));
@@ -62,6 +62,24 @@
       margin-right: 25px;
       position: relative;
       top: 5px;
+    }
+
+  }
+
+  .where{
+    .map {
+       height: 320px;
+    }
+    .map-details {
+      margin-top: 80px;
+      padding-left: 80px;
+      vertical-align: middle;
+      display: inline-block;
+      float: none;
+      font-size: 20px;
+      .gray {
+        color: @grey;
+      }
     }
   }
 
