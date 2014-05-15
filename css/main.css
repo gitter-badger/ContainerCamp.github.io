@@ -5811,19 +5811,34 @@ button.close {
   font-size: 43px;
   color: #23b8eb;
 }
-.main .page-header .image-where {
-  background: url("/images/location.jpg");
+.main .page-header .im {
   display: inline-block;
-  width: 30px;
-  height: 40px;
   margin-right: 25px;
   position: relative;
   top: 5px;
 }
-.main .where .gray {
+.main .page-header .image-where {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  background: url("/images/location.jpg");
+  width: 30px;
+  height: 40px;
+}
+.main .page-header .image-when {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  background: url("/images/calendar.jpg");
+  width: 37px;
+  height: 40px;
+}
+.main .gray {
   color: #79868b;
 }
-.main .where .black {
+.main .black {
   color: #253237;
 }
 .main .where .map {
@@ -5843,4 +5858,7 @@ button.close {
 .main .where .directions h5 {
   font-size: 28px;
   color: #253237;
+}
+.main .when .row {
+  font-size: 28px;
 }

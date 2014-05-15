@@ -54,25 +54,35 @@
       color: @lightblue;
     }
 
-    .image-where {
-      background: url("/images/location.jpg");
+    .im {
       display: inline-block;
-      width: 30px;
-      height: 40px;
       margin-right: 25px;
       position: relative;
       top: 5px;
     }
+    .image-where {
+      .im();
+      background: url("/images/location.jpg");
+      width: 30px;
+      height: 40px;
+    }
+    .image-when {
+      .im();
+      background: url("/images/calendar.jpg");
+      width: 37px;
+      height: 40px;
+    }
 
   }
 
+  .gray {
+    color: @grey;
+  }
+  .black {
+    color: @body-bg;
+  }
+
   .where{
-    .gray {
-      color: @grey;
-    }
-    .black {
-      color: @body-bg;
-    }
     .map {
        height: 320px;
     }
@@ -91,6 +101,12 @@
         font-size: 28px;
         color: @body-bg;
       }
+    }
+  }
+
+  .when {
+    .row {
+       font-size: 28px;
     }
   }
 
