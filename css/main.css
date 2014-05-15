@@ -5820,6 +5820,12 @@ button.close {
   position: relative;
   top: 5px;
 }
+.main .where .gray {
+  color: #79868b;
+}
+.main .where .black {
+  color: #253237;
+}
 .main .where .map {
   height: 320px;
 }
@@ -5831,6 +5837,10 @@ button.close {
   float: none;
   font-size: 20px;
 }
-.main .where .map-details .gray {
-  color: #79868b;
+.main .where .directions {
+  font-size: 18px;
+}
+.main .where .directions h5 {
+  font-size: 28px;
+  color: #253237;
 }
