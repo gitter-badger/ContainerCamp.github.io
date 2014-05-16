@@ -10,6 +10,17 @@
 
 @page-header-border-color: #cccccc;
 
+.gray {
+  color: @grey;
+}
+.black {
+  color: @body-bg;
+}
+
+.white {
+  color: white;
+}
+
 .header {
     text-align: center;
     margin-bottom: 50px;
@@ -42,7 +53,9 @@
 .main {
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 50px;
   background-color: white;
+  margin-bottom: 70px;
 
   .page-header {
     border-width: 5px;
@@ -87,12 +100,6 @@
 
   }
 
-  .gray {
-    color: @grey;
-  }
-  .black {
-    color: @body-bg;
-  }
 
   .where{
     .map {
@@ -141,4 +148,9 @@
     }
   }
 
+}
+
+.footer {
+  text-align: center;
+  font-size: 24px;
 }

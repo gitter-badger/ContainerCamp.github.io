@@ -5773,6 +5773,15 @@ button.close {
     display: none !important;
   }
 }
+.gray {
+  color: #79868b;
+}
+.black {
+  color: #253237;
+}
+.white {
+  color: white;
+}
 .header {
   text-align: center;
   margin-bottom: 50px;
@@ -5800,7 +5809,9 @@ button.close {
 .main {
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 50px;
   background-color: white;
+  margin-bottom: 70px;
 }
 .main .page-header {
   border-width: 5px;
@@ -5853,12 +5864,6 @@ button.close {
   width: 38px;
   height: 40px;
 }
-.main .gray {
-  color: #79868b;
-}
-.main .black {
-  color: #253237;
-}
 .main .where .map {
   height: 320px;
 }
@@ -5892,4 +5897,8 @@ button.close {
 }
 .main .schedule .row {
   font-size: 20px;
+}
+.footer {
+  text-align: center;
+  font-size: 24px;
 }
