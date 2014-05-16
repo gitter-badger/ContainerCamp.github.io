@@ -10,15 +10,15 @@ title: {{ page.title }}
   </div>
 
   <div class="row">
-      <div class="col-md-3 talk-image">
+      <div class="col-md-9 col-sm-12 talk-abstract col-md-push-3">
+          {{ content }}
+      </div>
+      <div class="col-md-3 col-sm-12 talk-image col-md-pull-9">
           <img width="230" height="230" src="{{ page.image_url }}" class="img-circle" alt="{{ page.speaker_name }}" />
           <h3 class="gray">{{ page.speaker_name }}</h3>
           <div class="talk-meta gray">
             <div class="image-clock"></div> {{ page.from }}
           </div>
-      </div>
-      <div class="col-md-9 talk-abstract">
-          {{ content }}
       </div>
   </div>
 </div>
