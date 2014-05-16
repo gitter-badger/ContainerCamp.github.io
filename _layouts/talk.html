@@ -1,34 +1,24 @@
 ---
 layout: default
+title: {{ page.title }}
 ---
 
-<div class="row">
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li class="active">{{ page.title }}</li>
-</ol>
-</div>
-<div class="row talk">
-    <div class="col-md-9 col-md-push-3">
-       <div class="col-md-12 col-xs-12">
-           <div class="page-header">
-               <h1>{{ page.title }} <small>at {{ page.from }}</small></h1>
-           </div>
+<div class="section talk-details">
+  <div class="page-header">
+      <span class="image-who"></span>
+      <h1>{{ page.title }}</h1>
+  </div>
 
-       </div>
-         {{ content }}
-    </div>
-    <div class="col-md-3 col-md-pull-9">
-        <div class="page-header">
-            <h3 class="h1">Speaker</h3>
-        </div>
-        <img class="img-responsive" src="{{ page.image_url }}" alt="{{ page.speaker_name }}" />
-        <h2>{{ page.speaker_name }}</h2>
-        
-        <strong>GitHub</strong>: <a href="{{ page.github }}">{{ page.github }}</a></br>
-        <strong>Twitter</strong>: <a href="https://twitter.com/{{ page.twitter }}">{{ page.twitter }}</a></br>
-
-        <h3>Bio</h3>
-        <p>{{ page.biography }}</p>
-    </div>
+  <div class="row">
+      <div class="col-md-3 talk-image">
+          <img width="230" height="230" src="{{ page.image_url }}" class="img-circle" alt="{{ page.speaker_name }}" />
+          <h3 class="gray">{{ page.speaker_name }}</h3>
+          <div class="talk-meta gray">
+            <div class="image-clock"></div> {{ page.from }}
+          </div>
+      </div>
+      <div class="col-md-9 talk-abstract">
+          {{ content }}
+      </div>
+  </div>
 </div>

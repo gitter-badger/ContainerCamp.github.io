@@ -60,7 +60,7 @@
   .page-header {
     border-width: 5px;
 
-    h2 {
+    h2, h1 {
       margin-bottom: 0px;
       display: inline-block;
       font-size: 43px;
@@ -145,6 +145,45 @@
   .schedule {
     .row {
        font-size: 20px;
+    }
+  }
+
+  .talk-details {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .talk-abstract {
+      font-size: 20px;
+    }
+
+    .talk-meta {
+      display: block !important;
+      text-align: center;
+      font-size: 30px;
+      .image-clock {
+        display: inline-block;
+        background: url("/images/clock.jpg");
+        width: 38px;
+        height: 40px;
+      }
+    }
+
+    @media (min-width: @screen-md) {
+      .row {
+        display: table-row;
+
+        div {
+          display: table-cell;
+          vertical-align: middle;
+          float: none;
+        }
+      }
     }
   }
 

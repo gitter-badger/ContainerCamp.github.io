@@ -5816,7 +5816,8 @@ button.close {
 .main .page-header {
   border-width: 5px;
 }
-.main .page-header h2 {
+.main .page-header h2,
+.main .page-header h1 {
   margin-bottom: 0px;
   display: inline-block;
   font-size: 43px;
@@ -5897,6 +5898,37 @@ button.close {
 }
 .main .schedule .row {
   font-size: 20px;
+}
+.main .talk-details h1 {
+  font-size: 30px;
+}
+.main .talk-details h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.main .talk-details .talk-abstract {
+  font-size: 20px;
+}
+.main .talk-details .talk-meta {
+  display: block !important;
+  text-align: center;
+  font-size: 30px;
+}
+.main .talk-details .talk-meta .image-clock {
+  display: inline-block;
+  background: url("/images/clock.jpg");
+  width: 38px;
+  height: 40px;
+}
+@media (min-width: 992px) {
+  .main .talk-details .row {
+    display: table-row;
+  }
+  .main .talk-details .row div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
 }
 .footer {
   text-align: center;
