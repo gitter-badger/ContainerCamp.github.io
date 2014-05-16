@@ -5939,6 +5939,10 @@ button.close {
 .who .speaker p {
   margin: 0px;
 }
+.who .speaker p a {
+  color: black;
+  text-decoration: underline;
+}
 @media (min-width: 992px) {
   .schedule .gray {
     text-align: center;
@@ -5957,6 +5961,9 @@ button.close {
     font-size: 18px;
     margin-bottom: 15px;
   }
+}
+.schedule .row .black {
+  text-decoration: underline;
 }
 @media (max-width: 480px) {
   .talk-details h1 {

@@ -51,8 +51,8 @@ title: Welcome
       {% for talk in slice %}
       <div class="col-md-3">
           <div class="speaker">
-              <img width="128" height="128" src="{{ talk.image_url }}" alt="{{ talk.speaker_name }}" class="img-circle" />
-              <p>{{ talk.speaker_name }}</p>
+              <a href="{{ talk.url}}"><img width="128" height="128" src="{{ talk.image_url }}" alt="{{ talk.speaker_name }}" class="img-circle" /></a>
+              <p><a href="{{ talk.url}}">{{ talk.speaker_name }}</a></p>
           </div>
       </div>
       {% endfor %}
@@ -70,7 +70,7 @@ title: Welcome
         <div class="gray">{{ s.from }}</div>
     </div>
     <div class="col-md-11 col-xs-12">
-        <a href="{{ s.url }}" class="black"><span class="onlypc">: </span>{{ s.title }}</a>
+        <a href="{{ s.url }}" class="black">{{ s.title }}</a>
     </div>
   </div>
   {% endfor %}
