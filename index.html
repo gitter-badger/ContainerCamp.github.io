@@ -62,11 +62,14 @@ title: Welcome
       <span class="image-schedule"></span>
       <h2>Schedule</h2>
   </div>
+  {% for s in site.data.ordered_talks %}
   <div class="row">
-    <div class="col-md-12">
-      {% for s in site.data.ordered_talks %}
-        <p class="black"><span class="gray">{{ s.from }}</span>: {{ s.title }}</p>
-      {% endfor %}
+    <div class="col-md-1">
+        <div style="text-align: center;" class="gray">{{ s.from }}</div>
+    </div>
+    <div class="col-md-11">
+        <p class="black">: {{ s.title }}</p>
     </div>
   </div>
+  {% endfor %}
 </div>
