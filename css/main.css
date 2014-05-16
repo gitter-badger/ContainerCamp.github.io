@@ -5844,6 +5844,15 @@ button.close {
   width: 37px;
   height: 40px;
 }
+.main .page-header .image-schedule {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+  top: 5px;
+  background: url("/images/clock.jpg");
+  width: 38px;
+  height: 40px;
+}
 .main .gray {
   color: #79868b;
 }
