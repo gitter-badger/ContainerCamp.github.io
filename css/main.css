@@ -5890,3 +5890,6 @@ button.close {
 .main .who .speaker p {
   margin: 0px;
 }
+.main .schedule .row {
+  font-size: 20px;
+}

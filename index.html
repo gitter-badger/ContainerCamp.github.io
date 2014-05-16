@@ -62,4 +62,11 @@ title: Welcome
       <span class="image-schedule"></span>
       <h2>Schedule</h2>
   </div>
+  <div class="row">
+    <div class="col-md-12">
+      {% for s in site.data.ordered_talks %}
+        <p class="black"><span class="gray">{{ s.from }}</span>: {{ s.title }}</p>
+      {% endfor %}
+    </div>
+  </div>
 </div>
