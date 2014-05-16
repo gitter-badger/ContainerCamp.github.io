@@ -29,6 +29,12 @@
 .header {
     text-align: center;
     margin-bottom: 50px;
+
+    .logo {
+      @media (max-width: @screen-xs) {
+        width: 200px;
+      }
+    }
 }
 
 .padded {
@@ -169,12 +175,40 @@
   }
 
   .schedule {
+    @media (min-width: @screen-md) {
+      .gray {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: @screen-xs) {
+      .gray {
+          font-size: 40px;
+        }
+    }
+
     .row {
        font-size: 20px;
+       @media (max-width: @screen-xs) {
+         font-size: 18px;
+         margin-bottom: 15px;
+       }
     }
   }
 
   .talk-details {
+    @media (max-width: @screen-xs) {
+      h1 {
+        font-size: 25px !important;
+        text-align: center;
+      }
+
+      .page-header {
+        margin-top: 0px;
+      }
+    }
+    
+
     h1 {
       font-size: 30px;
     }

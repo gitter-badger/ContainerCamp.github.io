@@ -66,11 +66,11 @@ title: Welcome
   </div>
   {% for s in site.data.ordered_talks %}
   <div class="row">
-    <div class="col-md-1">
-        <div style="text-align: center;" class="gray">{{ s.from }}</div>
+    <div class="col-md-1 col-xs-12">
+        <div class="gray">{{ s.from }}</div>
     </div>
-    <div class="col-md-11">
-        <a href="{{ s.url }}" class="black">: {{ s.title }}</a>
+    <div class="col-md-11 col-xs-12">
+        <a href="{{ s.url }}" class="black"><span class="onlypc">: </span>{{ s.title }}</a>
     </div>
   </div>
   {% endfor %}

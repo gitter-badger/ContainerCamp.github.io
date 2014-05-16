@@ -5796,6 +5796,11 @@ button.close {
   text-align: center;
   margin-bottom: 50px;
 }
+@media (max-width: 480px) {
+  .header .logo {
+    width: 200px;
+  }
+}
 .padded {
   padding-top: 90px;
 }
@@ -5934,8 +5939,33 @@ button.close {
 .who .speaker p {
   margin: 0px;
 }
+@media (min-width: 992px) {
+  .schedule .gray {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .schedule .gray {
+    font-size: 40px;
+  }
+}
 .schedule .row {
   font-size: 20px;
+}
+@media (max-width: 480px) {
+  .schedule .row {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .talk-details h1 {
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .talk-details .page-header {
+    margin-top: 0px;
+  }
 }
 .talk-details h1 {
   font-size: 30px;
