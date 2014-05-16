@@ -10,6 +10,11 @@
 
 @page-header-border-color: #cccccc;
 
+.onlypc {
+  .hidden-sm();
+  .hidden-xs();
+}
+
 .gray {
   color: @grey;
 }
@@ -51,8 +56,14 @@
 }
 
 .main {
-  padding-left: 80px;
-  padding-right: 80px;
+  @media (min-width: @screen-md) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @media (max-width: @screen-md) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   padding-bottom: 50px;
   background-color: white;
   margin-bottom: 70px;
@@ -102,15 +113,23 @@
 
 
   .where{
-    .map {
-       height: 320px;
+    @media (min-width: @screen-md) {
+      .map {
+         height: 320px;
+      }
+    }
+    iframe {
+      width: 690px;
+      height: 305px;
     }
     .map-details {
-      margin-top: 80px;
-      padding-left: 80px;
-      vertical-align: middle;
-      display: inline-block;
-      float: none;
+      @media (min-width: @screen-md) {
+        margin-top: 80px;
+        padding-left: 80px;
+        vertical-align: middle;
+        display: inline-block;
+        float: none;
+      }
       font-size: 20px;
     }
 
@@ -124,8 +143,15 @@
   }
 
   .when {
-    .row {
-       font-size: 28px;
+    .black {
+      font-size: 28px;
+    }
+      .row {
+        font-size: 18px;
+        @media (min-width: @screen-md) {
+          font-size: 28px;
+        }
+      }
     }
   }
 
@@ -187,7 +213,6 @@
     }
   }
 
-}
 
 .footer {
   text-align: center;

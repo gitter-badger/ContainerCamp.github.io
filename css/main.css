@@ -5773,6 +5773,16 @@ button.close {
     display: none !important;
   }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .onlypc {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .onlypc {
+    display: none !important;
+  }
+}
 .gray {
   color: #79868b;
 }
@@ -5807,11 +5817,21 @@ button.close {
   font-size: 38px;
 }
 .main {
-  padding-left: 80px;
-  padding-right: 80px;
   padding-bottom: 50px;
   background-color: white;
   margin-bottom: 70px;
+}
+@media (min-width: 992px) {
+  .main {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 .main .page-header {
   border-width: 5px;
@@ -5865,16 +5885,26 @@ button.close {
   width: 38px;
   height: 40px;
 }
-.main .where .map {
-  height: 320px;
+@media (min-width: 992px) {
+  .main .where .map {
+    height: 320px;
+  }
+}
+.main .where iframe {
+  width: 690px;
+  height: 305px;
 }
 .main .where .map-details {
-  margin-top: 80px;
-  padding-left: 80px;
-  vertical-align: middle;
-  display: inline-block;
-  float: none;
   font-size: 20px;
+}
+@media (min-width: 992px) {
+  .main .where .map-details {
+    margin-top: 80px;
+    padding-left: 80px;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+  }
 }
 .main .where .directions {
   font-size: 18px;
@@ -5883,48 +5913,56 @@ button.close {
   font-size: 28px;
   color: #253237;
 }
-.main .when .row {
+.main .when .black {
   font-size: 28px;
 }
-.main .who .speaker {
+.main .when .row {
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  .main .when .row {
+    font-size: 28px;
+  }
+}
+.who .speaker {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 30px;
   text-align: center;
   text-decoration: underline;
 }
-.main .who .speaker p {
+.who .speaker p {
   margin: 0px;
 }
-.main .schedule .row {
+.schedule .row {
   font-size: 20px;
 }
-.main .talk-details h1 {
+.talk-details h1 {
   font-size: 30px;
 }
-.main .talk-details h3 {
+.talk-details h3 {
   font-size: 30px;
   text-align: center;
 }
-.main .talk-details .talk-abstract {
+.talk-details .talk-abstract {
   font-size: 20px;
 }
-.main .talk-details .talk-meta {
+.talk-details .talk-meta {
   display: block !important;
   text-align: center;
   font-size: 30px;
 }
-.main .talk-details .talk-meta .image-clock {
+.talk-details .talk-meta .image-clock {
   display: inline-block;
   background: url("/images/clock.jpg");
   width: 38px;
   height: 40px;
 }
 @media (min-width: 992px) {
-  .main .talk-details .row {
+  .talk-details .row {
     display: table-row;
   }
-  .main .talk-details .row div {
+  .talk-details .row div {
     display: table-cell;
     vertical-align: middle;
     float: none;
