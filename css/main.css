@@ -5859,7 +5859,7 @@ button.close {
   margin-right: 25px;
   position: relative;
   top: 5px;
-  background: url("/images/user.jpg");
+  background: url("../images/user.jpg");
   width: 34px;
   height: 40px;
 }
@@ -5868,7 +5868,7 @@ button.close {
   margin-right: 25px;
   position: relative;
   top: 5px;
-  background: url("/images/location.jpg");
+  background: url(../images/location.jpg");
   width: 30px;
   height: 40px;
 }
@@ -5877,7 +5877,7 @@ button.close {
   margin-right: 25px;
   position: relative;
   top: 5px;
-  background: url("/images/calendar.jpg");
+  background: url("../images/calendar.jpg");
   width: 37px;
   height: 40px;
 }
@@ -5886,7 +5886,7 @@ button.close {
   margin-right: 25px;
   position: relative;
   top: 5px;
-  background: url("/images/clock.jpg");
+  background: url("../images/clock.jpg");
   width: 38px;
   height: 40px;
 }
@@ -6001,7 +6001,7 @@ button.close {
 }
 .talk-details .talk-meta .image-clock {
   display: inline-block;
-  background: url("/images/clock.jpg");
+  background: url("../images/clock.jpg");
   width: 38px;
   height: 40px;
 }
