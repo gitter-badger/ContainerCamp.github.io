@@ -2,3 +2,6 @@ name: DockerConf London
 markdown: redcarpet
 pygments: true
 permalink: /talks/:title
+exclude: 
+- vendor
+
