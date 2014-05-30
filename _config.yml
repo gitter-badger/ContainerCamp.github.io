@@ -1,7 +1,4 @@
 name: DockerConf London
 markdown: redcarpet
 pygments: true
-
-collections:
-  talks:
-    output: true
+permalink: /talks/:title
