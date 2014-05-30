@@ -1,6 +1,8 @@
 name: DockerConf London
 markdown: redcarpet
 pygments: true
+exclude: 
+- vendor
 
 collections:
   talks:
