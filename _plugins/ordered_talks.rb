@@ -1,5 +1,3 @@
-require 'pry'
-
 module OrderedTalks
   class Generator < Jekyll::Generator
     def generate(site)
