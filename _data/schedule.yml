@@ -1,0 +1,6 @@
+- name: Daniel Pyrathon
+  start_date: "9:00"
+  title: Playing around with Docker
+- name: Matteo Collina
+  start_date: "9:30"
+  title: Docker And LevelDB

@@ -13,6 +13,10 @@ title: Welcome
         32-38 Scrutton St<br>
         London EC2A 4RQ<br>
       </address>
+      <strong>How to get there</strong><br>
+        Tube: Old Street Station<br>
+        Bus: 55, 243, N35, N55<br>
+        Overground: Shoreditch High Street<br>
     </div>
     <div class="col-md-6">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.4382716433815!2d-0.08167005026245111!3d51.52352082447669!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb02bc355a5%3A0x15cb3a1ac968c5d6!2sShoreditch+Works!5e0!3m2!1sen!2s!4v1397139310292" width="400" height="300" frameborder="0" style="border:0"></iframe>
@@ -36,15 +40,15 @@ title: Welcome
       <div class="page-header"><h1>Who</h1></div>
     </div>
     <div class="col-md-12 col-xs-12">
-      {% assign slice_set = site.data.speakers | each_slice(3) %}
+      {% assign slice_set = site.data.ordered_talks | each_slice(3) %}
       {% for slice in slice_set %}
         <div class="row">
-        {% for speaker in slice %}
+        {% for talk in slice %}
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="thumbnail">
-              <img class="img-responsive" src="{{ speaker.image_url }}" alt="{{ speaker.name }}" />
+              <img class="img-responsive" src="{{ talk.image_url }}" alt="{{ talk.speaker_name}}" />
               <div class="caption text-center">
-                  <h3>{{ speaker.name }}</h3>
+                  <h3>{{ talk.speaker_name }}</h3>
               </div>
             </div>
           </div>
@@ -53,3 +57,23 @@ title: Welcome
       {% endfor %}
     </div>
 </div>
+
+<div class="row schedule">
+    <div class="col-md-12">
+        <div class="page-header"><h1>Schedule</h1></div>
+    </div>
+    {% for s in site.data.ordered_talks %}
+    <div class="row schedule-item">
+      <div class="col-md-2 col-xs-2">
+          <p class="h3">{{ s.from }}</p>
+      </div>
+      <div class="col-md-1 col-xs-2">
+          <img class="img-responsive img-circle center-block" src="{{ s.image_url }}" alt="Daniel Pyrathon" />
+      </div>
+      <div class="col-md-7 col-xs-8">
+          <h3><a href="{{ s.url }}">{{ s.title }}</a></h3>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+
