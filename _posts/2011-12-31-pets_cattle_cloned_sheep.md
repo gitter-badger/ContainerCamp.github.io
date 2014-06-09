@@ -4,7 +4,7 @@ speaker_name:  "John Daniels"
 image_url: "/images/speakers/jdaniels.jpg"
 github: "https://github.com/johnd"
 twitter: "semanticist"
-talk_title:  "Pets, Cattle, and Cloned Sheep"
+title:  "Pets, Cattle, and Cloned Sheep"
 biography:
     I make and fix internet things. I live on the internet, which makes for a short commute.
   

@@ -4,7 +4,7 @@ speaker_name:  "Gerhard Lazu"
 image_url: "/images/speakers/glazu.jpg"
 github: "https://github.com/gerhard"
 twitter: "gerhardlazu"
-talk_title:  "Continuous Deployment with Docker and Ansible"
+title:  "Continuous Deployment with Docker and Ansible"
 biography:
     Rubyist with a strong devops background
   

@@ -4,7 +4,7 @@ speaker_name:  "Aanand Prasad"
 image_url: "http://www.gravatar.com/avatar/73022df4be6fcced9792f50497b4f119.png?s=256"
 github: "https://github.com/aanand"
 twitter: "aanand"
-talk_title:  "Development environments with Fig"
+title:  "Development environments with Fig"
 biography:
     Frontend/backend web and iOS developer. London.
   
