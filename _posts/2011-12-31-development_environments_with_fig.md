@@ -8,7 +8,7 @@ title:  "Development environments with Fig"
 biography: |+
     Frontend/backend web and iOS developer. London.
   
-from: "9:30"
+from: "10:40"
 ---
 Fig is a tool for creating and running repeatable, isolated, throwaway development environments with Docker. It's being used by all sorts of impressive people - like the UK government, and Docker themselves.
 
