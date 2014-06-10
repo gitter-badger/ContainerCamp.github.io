@@ -2,7 +2,9 @@
 layout: default
 title: Welcome
 ---
-
+<div class="section intro">
+  <p>The UK's first docker conference! One day, London-based, affordable and featuring talks from community and Docker team members.</p>
+</div>
 <div class="section where">
   <div class="page-header">
       <span class="image-where"></span>
@@ -36,7 +38,7 @@ title: Welcome
   <div class="row">
       <div class="col-md-12">
           <p class="black">12th September 2014</p>
-          <p class="gray">9:00 - 18:00</p>
+          <p class="gray">9:30 - 18:00</p>
       </div>
   </div>
 </div>
@@ -45,7 +47,7 @@ title: Welcome
       <span class="image-who"></span>
       <h2>Who?</h2>
   </div>
-  {% assign slice_set = site.data.ordered_talks | each_slice(3) %}
+  {% assign slice_set = site.data.speakers | each_slice(3) %}
   {% for slice in slice_set %}
   <div class="row">
       {% for talk in slice %}
@@ -70,7 +72,11 @@ title: Welcome
         <div class="gray">{{ s.from }}</div>
     </div>
     <div class="col-md-11 col-xs-12">
-        <a href="{{ s.url }}" class="black">{{ s.title }}</a>
+        {% if s.break %}
+          <span class="black">{{ s.title }}</span>
+        {% else %}
+          <a href="{{ s.url }}" class="black">{{ s.title }}</a>
+        {% endif %}
     </div>
   </div>
   {% endfor %}

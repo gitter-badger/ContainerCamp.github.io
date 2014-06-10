@@ -4,7 +4,7 @@ speaker_name: "Jérôme Petazzoni"
 image_url: "/images/speakers/jpetazzoni.png"
 github: "https://github.com/jpetazzo"
 twitter: "jpetazzo"
-title:  "Talk on Docker II"
+title:  "Coming soon"
 biography: |+
     Jerome is a senior engineer at Docker, where he rotates between Ops,
     Support and Evangelist duties. In another life he built and operated
@@ -17,7 +17,7 @@ biography: |+
     hand cares for the dotCloud PAAS servers, while his right hand builds
     cool hacks around Docker.
   
-from: "11:00"
+from: "11:30"
 ---
 
-Bacon ipsum dolor sit amet ham hock ribeye jowl pastrami kielbasa biltong, turkey tenderloin swine prosciutto pancetta chuck salami ball tip. Spare ribs andouille shankle, hamburger ribeye beef corned beef swine pastrami short loin turducken kevin biltong. Ball tip pig spare ribs cow swine bacon pork loin ham hock tongue flank chuck tail biltong. Swine short ribs hamburger capicola t-bone venison, pork belly strip steak shank.
+Talk abstract coming soon!
