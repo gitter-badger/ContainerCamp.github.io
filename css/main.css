@@ -5971,7 +5971,7 @@ button.close {
     margin-bottom: 15px;
   }
 }
-.schedule .row .black {
+.schedule .row a.black {
   text-decoration: underline;
 }
 @media (max-width: 480px) {

@@ -72,7 +72,11 @@ title: Welcome
         <div class="gray">{{ s.from }}</div>
     </div>
     <div class="col-md-11 col-xs-12">
-        <a href="{{ s.url }}" class="black">{{ s.title }}</a>
+        {% if s.break %}
+          <span class="black">{{ s.title }}</span>
+        {% else %}
+          <a href="{{ s.url }}" class="black">{{ s.title }}</a>
+        {% endif %}
     </div>
   </div>
   {% endfor %}
