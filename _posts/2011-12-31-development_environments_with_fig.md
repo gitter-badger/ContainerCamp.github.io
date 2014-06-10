@@ -5,7 +5,7 @@ image_url: "http://www.gravatar.com/avatar/73022df4be6fcced9792f50497b4f119.png?
 github: "https://github.com/aanand"
 twitter: "aanand"
 title:  "Development environments with Fig"
-biography:
+biography: |+
     Frontend/backend web and iOS developer. London.
   
 from: "9:30"
