@@ -5801,6 +5801,20 @@ button.close {
     width: 200px;
   }
 }
+#ticket-bar {
+  text-align: center;
+  margin-top: 2ex;
+}
+#ticket-button {
+  border-radius: 4px;
+  background: #428BCA;
+  color: #fff;
+  padding: 6px 10px;
+}
+#ticket-button:hover {
+  text-decoration: none;
+  background: #4DA3ED;
+}
 .intro {
   font-size: 28px;
   margin-top: 5ex;
