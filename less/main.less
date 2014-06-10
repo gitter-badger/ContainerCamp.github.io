@@ -283,6 +283,20 @@
   font-size: 24px;
 }
 
-.tito-ticket-list {
-  list-style: none;
+#tito-register-form {
+  @media (max-width: @screen-xs) {
+    width: 100% !important;
+  }
+  .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+     float: none;
+     margin-left: 0;
+  }
+
+  .radio, .checkbox {
+    display: auto;
+    min-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
 }
