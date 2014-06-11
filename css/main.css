@@ -5802,7 +5802,7 @@ button.close {
 }
 .date-day {
   position: relative;
-  right: -5px;
+  right: -0.7em;
 }
 #ticket-bar {
   text-align: center;
