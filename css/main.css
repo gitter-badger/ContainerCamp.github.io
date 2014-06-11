@@ -5792,6 +5792,11 @@ button.close {
 .white {
   color: white;
 }
+p.general {
+  font-size: 28px;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
 .header {
   text-align: center;
   margin-bottom: 50px;
