@@ -6081,3 +6081,21 @@ p.general {
 .text-content div {
   margin-bottom: 50px;
 }
+/* tito fixes */
+#tito-register-form hr {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+#tito-register-form p {
+  margin: 10px 0 0 0;
+}
+#tito-register-form #tito-footer p {
+  margin: 0 0 10px;
+}
+#tito-register-form .tito-ticket:first-child {
+  border-top: 1px solid #C7C7C7;
+}
+#tito-register-form .tito-ticket-quantity {
+  position: relative;
+  top: -3px;
+}
