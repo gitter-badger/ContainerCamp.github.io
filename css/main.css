@@ -6071,9 +6071,13 @@ p.general {
   margin-bottom: 0px;
   padding-left: 0px;
 }
-.code-conduct {
+.text-content {
   font-size: 20px;
 }
-.code-conduct div {
+.text-content h1 {
+  margin-top: 5ex;
+  margin-bottom: 2ex;
+}
+.text-content div {
   margin-bottom: 50px;
 }
