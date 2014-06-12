@@ -6066,3 +6066,9 @@ button.close {
   margin-bottom: 0px;
   padding-left: 0px;
 }
+.code-conduct {
+  font-size: 20px;
+}
+.code-conduct div {
+  margin-bottom: 50px;
+}
