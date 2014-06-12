@@ -2,7 +2,7 @@
 
 echo ${DOCKER_CON_ENV:-STAGING}
 
-if [[ ${DOCKER_CON_ENV:-STAGING} == "PRODUCTION" ]]; then
+if [[ ${DOCKER_CON_ENV:-STAGING} == "production" ]]; then
   REPO=git@github.com:DockerConfLondon/DockerConfLondon.github.io.git
 else
   REPO=git@github.com:DConfLdnStaging/DConfLdnStaging.github.io.git
