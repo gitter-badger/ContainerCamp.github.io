@@ -3,9 +3,9 @@
 echo ${DOCKER_CON_ENV:-STAGING}
 
 if [[ ${DOCKER_CON_ENV:-STAGING} == "production" ]]; then
-  REPO=git@github.com:DockerConfLondon/DockerConfLondon.github.io.git
+  REPO=git@github.com:ContainerCamp/ContainerCamp.github.io.git
 else
-  REPO=git@github.com:DConfLdnStaging/DConfLdnStaging.github.io.git
+  REPO=git@github.com:ContainerCamp/ContainerCamp.github.io.git
 fi
 
 echo "DEPLOYING TO $REPO"
