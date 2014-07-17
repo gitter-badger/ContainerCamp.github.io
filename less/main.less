@@ -37,6 +37,11 @@ p.general {
     margin-bottom: 50px;
 
     .logo {
+      @media (min-width: @screen-md) {
+        position: relative;
+        top: 20px;
+        right: 40px;
+      }
       @media (max-width: @screen-xs) {
         width: 200px;
       }
@@ -359,3 +364,4 @@ p.general {
     top: -3px;
   }
 }
+

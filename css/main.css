@@ -5800,6 +5800,13 @@ p.general {
   text-align: center;
   margin-bottom: 50px;
 }
+@media (min-width: 992px) {
+  .header .logo {
+    position: relative;
+    top: 20px;
+    right: 40px;
+  }
+}
 @media (max-width: 480px) {
   .header .logo {
     width: 200px;
