@@ -5,3 +5,7 @@ permalink: /talks/:title
 exclude: 
 - vendor
 
+collections:
+  sponsors:
+    output: true
+    permalink: /sponsors/:path/
