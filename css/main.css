@@ -6129,3 +6129,14 @@ p.general {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
 }
+.docker-note {
+  text-align: center;
+  font-size: 16px;
+}
+@media (max-width: 480px) {
+  .docker-note {
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
