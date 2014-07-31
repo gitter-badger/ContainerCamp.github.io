@@ -212,6 +212,9 @@ p.general {
        font-size: 30px;
        text-align: center;
        text-decoration: underline;
+       img {
+         .grayscale()
+       }
        p {
          a {
            color: black;
@@ -375,4 +378,12 @@ p.general {
 
 .sponsor-logo {
   margin-bottom: 30px;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
 }

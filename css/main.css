@@ -5976,6 +5976,13 @@ p.general {
   text-align: center;
   text-decoration: underline;
 }
+.who .speaker img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
 .who .speaker p {
   margin: 0px;
 }
@@ -6114,4 +6121,11 @@ p.general {
 }
 .sponsor-logo {
   margin-bottom: 30px;
+}
+.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
 }

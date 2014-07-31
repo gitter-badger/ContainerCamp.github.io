@@ -1,7 +1,7 @@
 ---
 layout: talk
 speaker_name:  "Jérôme Petazzoni"
-image_url: "https://avatars0.githubusercontent.com/u/171481?v=1&s=460"
+image_url: "/images/speakers/jpetazzoni.png"
 github: "https://github.com/jpetazzo"
 twitter: "jpetazzo"
 title:  "Docker production tips"
