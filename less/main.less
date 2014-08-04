@@ -56,6 +56,11 @@ p.general {
 #ticket-bar {
   text-align: center;
   margin-top: 2ex;
+  position: relative;
+  left: -45px;
+  @media (max-width: @screen-xs) {
+    position: static;
+  }
 }
 
 #ticket-button {
