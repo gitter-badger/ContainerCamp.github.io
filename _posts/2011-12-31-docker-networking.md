@@ -1,7 +1,7 @@
 ---
 layout: talk
 speaker_name:  "Chris Swan"
-image_url: "https://avatars2.githubusercontent.com/u/478926?v=1&s=460"
+image_url: "https://pbs.twimg.com/profile_images/432907267449425920/clyx0oSW_400x400.png"
 github: "https://github.com/cpswan"
 twitter: "cpswan"
 title:  "Docker Networking"
