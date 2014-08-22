@@ -1,0 +1,12 @@
+---
+layout: sponsor
+name:  "Docker"
+image_url: "/images/sponsors/Docker.png"
+---
+
+Docker is an open-source engine, launched and maintained by dotCloud, that automates the deployment of any
+application as a lightweight, portable, self-sufficient container that will run virtually anywhere.
+
+Docker containers can encapsulate any payload, and will run consistently on and between virtually
+any server. The same container that a developer builds and tests on a laptop will run at scale, in 
+production, on VMs, bare-metal servers, OpenStack clusters, public instances, or combinations of the above.
