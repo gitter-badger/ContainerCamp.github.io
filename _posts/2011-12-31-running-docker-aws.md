@@ -6,8 +6,7 @@ github: "https://github.com/jweiss"
 twitter: "jweiss"
 title:  "Running Docker on AWS"
 biography:
-    Jonathan Weiss is a consultant and partner at Peritor GmbH in Berlin, Germany. For the last years he has been developing and consulting large Web projects where he focused on scalability and security. Nowadays Jonathan develops Scalarium, an EC2 Cluster Management solution, and helps clients migrate to the Cloud. He is an active developer of several OpenSource libraries around CouchDB and Amazon Web Services and the author of Webistrano, a deployment tool.
-  
+    Jonathan Weiss is leading the AWS OpsWorks team in Berlin. Before building a company and ending up selling it to Amazon, he was a Ruby consultant.Running an Amazon Web Service is the perfect opportunity for Jonathan to experience first hand the perils of large distributed applications and learn every day.
 from: "17:20"
 ---
 
