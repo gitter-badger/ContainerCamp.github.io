@@ -1,7 +1,7 @@
 ---
 layout: talk
 speaker_name:  "Luke Bond"
-image_url: "https://pbs.twimg.com/profile_images/1645859825/DSC01247_400x400.JPG"
+image_url: "/images/speakers/lukebond.png"
 github: "https://github.com/lukebond"
 twitter: "lukeb0nd"
 title:  "Building a Docker PaaS with CoreOS, etcd and fleet"
