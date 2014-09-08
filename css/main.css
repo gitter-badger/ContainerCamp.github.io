@@ -6147,3 +6147,12 @@ p.general {
     padding-right: 0px;
   }
 }
+.plus {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.second-speaker {
+  margin-top: 25px;
+}

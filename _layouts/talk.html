@@ -12,8 +12,11 @@ layout: default
           {{ content }}
       </div>
       <div class="col-md-3 col-sm-12 talk-image col-md-pull-9">
-          <img width="230" height="230" src="{{ page.image_url }}" class="img-circle" alt="{{ page.speaker_name }}" />
-          <h3 class="gray">{{ page.speaker_name }}</h3>
+          <img width="230" height="230" src="{{ page.image_url }}" class="img-circle center-block" alt="{{ page.speaker_name }}" />
+          {% if page.image_url_2 %}
+            <img width="230" height="230" src="{{ page.image_url_2 }}" class="img-circle second-speaker center-block" alt="{{ page.speaker_name }}" />
+          {% endif %}
+          <h3 class="gray">{{ page.speaker_name | split_plus }}</h3>
           <div class="talk-meta gray">
             <div class="image-clock"></div> {{ page.from }}
           </div>
