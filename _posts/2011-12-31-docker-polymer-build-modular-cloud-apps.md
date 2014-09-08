@@ -1,5 +1,6 @@
 ---
 layout: talk
+speaker_name_list: "Marc Cohen"
 speaker_name: "Marc Cohen + Alex Vaghin"
 image_url: "http://d13pix9kaak6wt.cloudfront.net/avatar/users/m/a/r/marc1_1366092685_45.jpg"
 image_url_2: "/images/speakers/avaghin.jpg"

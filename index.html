@@ -55,12 +55,24 @@ title: Welcome
       <div class="col-md-3">
           <div class="speaker">
               <a href="{{ talk.url}}"><img width="128" height="128" src="{{ talk.image_url }}" alt="{{ talk.speaker_name }}" class="img-circle" /></a>
-              <p><a href="{{ talk.url}}">{{ talk.speaker_name | split_plus }}</a></p>
+              {% if talk.speaker_name_list %}
+                <p><a href="{{ talk.url}}">{{ talk.speaker_name_list }}</a></p>
+              {% else %}
+                <p><a href="{{ talk.url}}">{{ talk.speaker_name }}</a></p>
+              {% endif %}
           </div>
       </div>
       {% endfor %}
   </div>
   {% endfor %}
+  <div class="row">
+    <div class="col-md-3">
+        <div class="speaker">
+            <a href="/talks/docker-polymer-build-modular-cloud-apps/"><img width="128" height="128" src="/images/speakers/avaghin.jpg" alt="Alex Vaghin" class="img-circle" /></a>
+            <p><a href="/talks/docker-polymer-build-modular-cloud-apps/">Alex Vaghin</a></p>
+        </div>
+    </div>
+  </div>
 </div>
 <div class="section schedule">
   <div class="page-header">
